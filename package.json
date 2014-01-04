@@ -1,6 +1,6 @@
 {
   "name": "hash-house-hazard",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "scripts": {
     "start": "coffee app.coffee"
@@ -14,8 +14,28 @@
   "devDependencies": {
     "grunt": "*",
     "bower": "*",
+    "grunt-contrib-watch": "*",
     "grunt-contrib-jshint": "*",
-    "grunt-contrib-nodeunit": "*",
-    "grunt-contrib-uglify": "*"
-  }
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-requirejs": "*",
+    "grunt-contrib-imagemin": "*",
+    "grunt-contrib-htmlmin": "*",
+    "grunt-contrib-jasmine": "*",
+    "grunt-template-jasmine-istanbul": "*",
+    "grunt-template-jasmine-requirejs": "*",
+    "grunt-contrib-connect": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arvind-naidu/hash-house-hazard"
+  },
+  "keywords": [
+    "Grunt",
+    "Javascript",
+    "Node.js",
+    "Heroku",
+    "Bower"
+  ],
+  "author": "Arvind Naidu",
+  "license": "MIT"
 }
