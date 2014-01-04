@@ -14,6 +14,7 @@
   "devDependencies": {
     "grunt": "*",
     "bower": "*",
+    "matchdep": "*",
     "grunt-contrib-watch": "*",
     "grunt-contrib-jshint": "*",
     "grunt-contrib-uglify": "*",
@@ -23,12 +24,7 @@
     "grunt-contrib-jasmine": "*",
     "grunt-template-jasmine-istanbul": "*",
     "grunt-template-jasmine-requirejs": "*",
-    "grunt-contrib-connect": "*",
-    "matchdep": "~0.3.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/arvind-naidu/hash-house-hazard"
+    "grunt-contrib-connect": "*"
   },
   "keywords": [
     "Grunt",
