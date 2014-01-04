@@ -1,7 +1,8 @@
 module.exports = function(grunt) {
 
   require('time-grunt')(grunt)
-  // Project configuration.
+  require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
+
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     
@@ -9,10 +10,6 @@ module.exports = function(grunt) {
 
   });
 
-  // Load the plugin that provides the "uglify" task.
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-
-  // Default task(s).
   grunt.registerTask('default', ['uglify']);
 
 };
