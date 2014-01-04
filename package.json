@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "grunt": "*",
+    "bower": "*",
     "grunt-contrib-jshint": "*",
     "grunt-contrib-nodeunit": "*",
     "grunt-contrib-uglify": "*"

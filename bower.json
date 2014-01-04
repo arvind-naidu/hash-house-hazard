@@ -1,0 +1,12 @@
+{
+  "name": "hash-house-hazard",
+  "version": "0.0.2",
+  "main": "./bower_components",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "bootstrap-stylus": "*"
+  }
+}
