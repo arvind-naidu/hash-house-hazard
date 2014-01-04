@@ -5,11 +5,13 @@
   "scripts": {
     "start": "coffee app.coffee"
   },
+  "main": "app.coffee",
   "dependencies": {
     "express": "3.4.7",
     "jade": "*",
     "stylus": "*",
-    "coffee-script": "*"
+    "coffee-script": "*",
+    "time-grunt": "*"
   },
   "devDependencies": {
     "grunt": "*",
@@ -21,10 +23,8 @@
     "grunt-contrib-requirejs": "*",
     "grunt-contrib-imagemin": "*",
     "grunt-contrib-htmlmin": "*",
-    "grunt-contrib-jasmine": "*",
-    "grunt-template-jasmine-istanbul": "*",
-    "grunt-template-jasmine-requirejs": "*",
-    "grunt-contrib-connect": "*"
+    "grunt-contrib-connect": "*",
+    "grunt-contrib-jasmine": "*"
   },
   "keywords": [
     "Grunt",
