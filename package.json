@@ -1,6 +1,6 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
+  "name": "hash-house-hazard",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "start": "coffee app.coffee"
@@ -10,5 +10,11 @@
     "jade": "*",
     "stylus": "*",
     "coffee-script": "*"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-nodeunit": "*",
+    "grunt-contrib-uglify": "*"
   }
 }
