@@ -1,15 +1,11 @@
 module.exports = function(grunt) {
 
+  require('time-grunt')(grunt)
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     
-    uglify: {
-      build: {
-        src: 'src/<%= pkg.name %>.js',
-        dest: 'build/<%= pkg.name %>.min.js'
-      }
-    }
+    
 
   });
 
