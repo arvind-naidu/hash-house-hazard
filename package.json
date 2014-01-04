@@ -23,7 +23,8 @@
     "grunt-contrib-jasmine": "*",
     "grunt-template-jasmine-istanbul": "*",
     "grunt-template-jasmine-requirejs": "*",
-    "grunt-contrib-connect": "*"
+    "grunt-contrib-connect": "*",
+    "matchdep": "~0.3.0"
   },
   "repository": {
     "type": "git",
