@@ -93,6 +93,8 @@ module.exports = function(grunt) {
         }]
       }
     },
+    
+    /*
 
     // Minify HTML
     htmlmin: {
@@ -111,6 +113,8 @@ module.exports = function(grunt) {
         }
       }
     }
+
+    */
     
   });
 
