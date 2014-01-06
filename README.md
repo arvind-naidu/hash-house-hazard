@@ -9,4 +9,4 @@ hash-house-hazard
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/arvind-naidu/hash-house-hazard/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
-A simple Node.js based website with the use of Express, Jade, Coffee-Script, Bower, & Grunt. All the tests are performed using Travis-CI.
+A comprehensive Node.js based website built with Express, Jade, Coffee-Script, Bower, & Grunt. All the tests are performed using Travis-CI.
