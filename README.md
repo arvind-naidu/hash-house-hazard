@@ -9,4 +9,6 @@ hash-house-hazard
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/arvind-naidu/hash-house-hazard/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
+[![David](https://david-dm.org/arvind-naidu/hash-house-hazard.png)(https://david-dm.org/)
+
 A comprehensive Node.js based website built with Express, Jade, Coffee-Script, Bower, & Grunt. All the tests are performed using Travis-CI.
